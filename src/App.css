@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(201, 219, 227);
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.Kalvium_logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  
+}
+
+.Quiz_logo {
+  width: 120px;
+  height: auto;
+}
+
+.Welcome {
+  font-size: 2.8rem;
+  color: #4CAF50; 
+  padding-right: 15vw;
+ 
+}
+
+.main button {
+  width: 260px;
+  height: 60px;
+  font-size: 1.8rem;
+  border-radius: 30px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
+  margin-top: 3rem;
+  border: none;
+}
+
+.main {
+  margin-top: 15%;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: 260px;
+  margin: 3rem auto;
+}
+
+.buttons button {
+  width: 130px;
+  height: 50px;
+  font-size: 1.2rem;
+  background-color: #2196F3; /* Blue */
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+.questionmain {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  margin-top: 3rem;
+}
+
+.questionmain p {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.endbuttons {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 5rem auto;
+  border-radius: 30px;
+}
+
+.endbuttons button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin-left: 2vw;
+  background-color: #FF5722; 
+  color: white;
+  cursor: pointer;
+  margin-top: 3rem;
+  border: none;
+}
+
